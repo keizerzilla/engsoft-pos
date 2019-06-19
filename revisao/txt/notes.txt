@@ -1,0 +1,1 @@
+"citationkey", "title", "authors", "year", "doi", "fromsearch", "worktype", "publishedin"
