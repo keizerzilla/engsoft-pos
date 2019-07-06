@@ -215,6 +215,7 @@ def barh(column, title="ASDF"):
 		ax.text(i.get_width(), i.get_y(), str(i.get_width()), fontsize=10)
 	
 	plt.title(title)
+	plt.tight_layout()
 	plt.show()
 
 def research_questions():
@@ -222,19 +223,19 @@ def research_questions():
 	#barh("DATABASES")
 	
 	# preprocessamentos
-	#barh("PREPROCESSING")
+	#barh("PREPROCESSINGS", "Etapas de pré-processamento")
 	
 	# atributos
-	#barh("ATTRIBUTES", "Atributos utlizados")
+	#barh("ATTRIBUTES", "Atributos")
 	
 	# keypoints
-	#barh("KEYPOINTS", "Landmarks adotados nas técnicas")
+	#barh("KEYPOINTS", "Keypoints")
 	
 	# experimentos
 	#barh("TASKS", "Experimentos de validação")
 	
 	# modelos de predicao
-	barh("PREDICTIVE_MODELS", "Modelos de predição")
+	#barh("PREDICTIVE_MODELS", "Modelos de predição")
 	
 if __name__ == "__main__":
 	research_questions()
